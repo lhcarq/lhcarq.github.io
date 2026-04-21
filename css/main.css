@@ -431,25 +431,29 @@ footer {
 .logo-container {
     position: relative;
     display: inline-block;
-    width: 40px; 
-    height: 40px;
+    width: auto;   
+    height: auto;  
+    vertical-align: middle;
 }
 
+/* This stacks both images on top of each other */
 .logo-container img {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: auto;
-    transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
 }
 
 .logo-outline {
     opacity: 1;
+    z-index: 2;
 }
 
 .logo-solid {
     opacity: 0;
+    z-index: 1;
 }
 
 .logo-container:hover .logo-outline {
