@@ -91,6 +91,6 @@ $(document).ready(function() {
         // we just wait 300ms before moving to the next page
         setTimeout(function() {
             window.location.href = url;
-        }, 300); 
+        }, 600); 
     }
 }
