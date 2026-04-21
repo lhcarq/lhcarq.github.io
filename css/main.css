@@ -428,38 +428,40 @@ footer {
     z-index: 5; 
 }
 
-.logo-container {
-    position: relative;
-    display: inline-block;
-    width: auto;   
-    height: auto;  
-    vertical-align: middle;
+.logo-wrapper {
+    position: relative !important;
+    display: block !important;
+    width: auto;  
+    height: auto; 
 }
 
-.logo-container img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: auto;
-    transition: opacity 0.2s ease-in-out;
+/* 2. Force both images to occupy the exact same top-left corner */
+.logo-wrapper img {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    height: auto !important;
+    transition: opacity 0.2s ease-in-out !important;
 }
 
-.logo-outline {
+.logo-off {
     opacity: 1;
-    z-index: 2;
+    z-index: 10;
 }
 
-.logo-solid {
+.logo-on {
     opacity: 0;
-    z-index: 1;
+    z-index: 5;
 }
 
-.logo-container:hover .logo-outline {
+.logo-wrapper:hover .logo-off {
     opacity: 0;
 }
 
-.logo-container:hover .logo-solid {
+.logo-wrapper:hover .logo-on {
     opacity: 1;
 }
 
