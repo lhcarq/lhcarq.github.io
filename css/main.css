@@ -418,7 +418,7 @@ footer {
 
 }
 
-@media (min-width: 1201px) {
+@media (min-width: 121px) {
     #content img {
         min-height: 100%;
     }
