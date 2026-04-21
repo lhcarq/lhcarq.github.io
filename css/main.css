@@ -393,7 +393,8 @@ footer {
 #content img {
     width: auto; 
     height: auto;
-   
+    max-width: 118px;
+    max-height: auto;
     position: absolute;
     top: 0;
     left: 0;
