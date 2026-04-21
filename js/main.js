@@ -77,6 +77,8 @@ $(document).ready(function() {
 	    	}
     	}, 6000);*/
 	}, 2000);
+	
+});
 
 	function delayNav(e, element) {
     // Check if it's a touch device
@@ -92,5 +94,3 @@ $(document).ready(function() {
         }, 300); 
     }
 }
-	
-});
