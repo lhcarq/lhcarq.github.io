@@ -385,7 +385,7 @@ footer {
 
 #content {
     position: relative;
-    width: 100%;
+    width: calc(100% - 115px);
     max-height: 100vh;
     max-height: 100%;
 }
