@@ -329,8 +329,15 @@ header div {
 }
 
 header div h2 {
+    display: inline;  
     font-size: 15px;
     margin: 0;
+}
+
+.inline-desc {
+    display: inline;    
+    margin-left: 10px;  
+    color: #999;        
 }
 
 header div p {
