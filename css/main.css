@@ -412,8 +412,9 @@ footer {
 
 .contacts a, 
 .contacts span {
-    font-size: 15px; 
-    margin-right: 50px;
+    font-size: 15px;
+    line-height: 20px;
+    margin-right: 30px;
 }
 
 #content {
