@@ -464,7 +464,7 @@ footer {
     padding: 0 !important;
     width: auto !important;
     height: auto !important;
-    transition: opacity 0.2s ease-in-out !important;
+    transition: opacity 0.5s ease-in-out !important;
 }
 
 .logo-off {
