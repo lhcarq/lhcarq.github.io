@@ -331,7 +331,7 @@ header div {
 header div h2 {
     display: inline;  
     font-size: 15px;
-    margin: 0.5;
+    margin: 0.25;
 }
 
 .inline-desc {
@@ -342,7 +342,7 @@ header div h2 {
 header div p {
     font-size: 15px;
     line-height: 20px;
-    margin: 0.5; 
+    margin: 0.25; 
     font-weight: 200; 
 }
 
