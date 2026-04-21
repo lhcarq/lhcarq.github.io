@@ -428,22 +428,23 @@ footer {
     z-index: 5; 
 }
 
-.logo-base {
-    opacity: 1;
-}
-
 .logo-hover {
-    opacity: 0;
-    position: absolute; 
+    position: absolute;
     top: 0;
     left: 0;
+    opacity: 0 
+    pointer-events: none;
 }
 
 .logo-link:hover .logo-base {
-    opacity: 0;
+    opacity: 0 !important;
 }
 
 .logo-link:hover .logo-hover {
+    opacity: 1 
+}
+
+#content img.show {
     opacity: 1;
 }
 
