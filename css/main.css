@@ -403,13 +403,13 @@ footer {
     transition: opacity 1.5s ease-in-out
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 120px) {
     body  {
         justify-content: flex-start;
     }
 
     #content {
-        max-width: 100%;
+        max-width: 120%;
     }
 
     #content img {
