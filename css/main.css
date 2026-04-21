@@ -315,6 +315,30 @@ nav a:hover {
     text-decoration: none;
 }
 
+header div {
+    display:inline-block;
+    margin: 20px 20px 0;
+}
+
+header div h2 {
+    font-size: 15px;
+    line-height: 20px;
+    margin: 0;
+}
+
+header div p {
+    font-size: 15px;
+    line-height: 20px;
+    margin: 0; 
+    font-weight: 200; 
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-bottom: 20px; 
+}
 
 footer div {
     display:inline-block;
