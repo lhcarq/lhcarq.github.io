@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="/css/main.css">
     </head>
     <body>
-        <header>
+        <header class="hide">
             <div>
                 <h2>LHC LAI HON CHIO</h2> 
                 <p class="inline-desc">macau/porto</p> 
@@ -35,5 +35,17 @@
         <nav>
             <a href="https://www.lhcarq.com">LHC.ARQ</a>
         </nav>
+
+<script>
+    window.onload = function() {
+        // Find all hidden elements and swap 'hide' for 'show'
+        const elements = document.querySelectorAll('.hide');
+        elements.forEach(el => {
+            el.classList.remove('hide');
+            el.classList.add('show');
+        });
+    };
+</script>
+        
     </body>
 </html>
