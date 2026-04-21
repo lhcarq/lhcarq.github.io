@@ -477,14 +477,3 @@ footer {
     filter: alpha(opacity=0);
     opacity: 0 ;
 }
-
-.logo-link:hover img {
-    opacity: 0; 
-}
-
-.logo-link {
-    background-image: url('img/logo-hover.png'); 
-    background-repeat: no-repeat;
-    background-position: right top;
-    background-size: contain;
-}
