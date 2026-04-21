@@ -331,19 +331,18 @@ header div {
 header div h2 {
     display: inline;  
     font-size: 15px;
-    margin: 0;
+    margin: 2.5;
 }
 
 .inline-desc {
     display: inline;    
-    margin-left: 10px;  
-    color: #999;        
+    margin-left: 5px;         
 }
 
 header div p {
     font-size: 15px;
     line-height: 20px;
-    margin: 0; 
+    margin: 2.5; 
     font-weight: 200; 
 }
 
