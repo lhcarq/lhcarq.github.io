@@ -334,10 +334,10 @@ header div {
 }
 
 header div h2 {
-    display: inline;  
+    display: inline-block;  
     font-size: 15px;
     margin: 0;
-    margin-bottom: 10px;
+    margin-bottom: 1.5px;
 }
 
 .inline-desc {
