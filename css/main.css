@@ -199,6 +199,11 @@ textarea {
     clear: both;
 }
 
+* {
+    -webkit-tap-highlight-color: transparent !important;
+    -webkit-touch-callout: none; /* Prevents the "save image" popup on long-press if desired */
+}
+
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
@@ -453,7 +458,6 @@ footer {
     display: block !important;
     width: auto;  
     height: auto; 
-    -webkit-tap-highlight-color: transparent;
 }
 
 /* 2. Force both images to occupy the exact same top-left corner */
